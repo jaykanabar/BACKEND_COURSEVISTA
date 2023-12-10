@@ -112,7 +112,7 @@ exports.signup = async (req, res) => {
   }
 }
 
-// Login controller for authenticating users
+// Login controller for authention people who are newly login
 exports.login = async (req, res) => {
   try {
     // Get email and password from request body
