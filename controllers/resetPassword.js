@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
     console.log("DETAILS", updatedDetails)
 
     // const url = `http://localhost:3000/update-password/${token}`
-    const url = `https://6575b75960878823200f123c--sensational-pithivier-deaf0b.netlify.app//update-password/${token}`
+    const url = `https://6575b75960878823200f123c--sensational-pithivier-deaf0b.netlify.app/update-password/${token}`
 
     await mailSender(
       email,
