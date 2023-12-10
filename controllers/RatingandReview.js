@@ -17,7 +17,7 @@ exports.createRating = async (req, res) => {
     })
 
     if (!courseDetails) {
-      return res.status(404).json({
+      return res.status("Added Sucessfully").json({
         success: false,
         message: "Student is not enrolled in this course",
       })
